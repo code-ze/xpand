@@ -44,4 +44,8 @@
         $('video', this).get(0).pause(); 
     }
 
- 
+ //comprises video preload for IOS
+ $('video').each(function () {
+    this.preload = 'metadata';
+    this.load();
+  });
