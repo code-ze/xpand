@@ -20,8 +20,6 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 
-  <!-- delate later for test -->
-  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
@@ -35,7 +33,7 @@
 
   <!-- preloader -->
   <div id="preloader">
-    <img class="status" style="display: block; margin: 0 auto; width: 35%; z-index: 1000;" src="Ripple.svg">
+    <img class="status" style="display: block;  margin-top: 50%; margin: 0 auto; z-index: 1000;" src="xpand_Animation.gif">
     <div id="status"></div>
   </div>
 
@@ -65,7 +63,8 @@
       <ul class="li-style" style="font-size: 15pt;">
         <a href="#" class="li-style" style="font-family: 'Rubik', sans-serif; color: #734CC1; ">Create</a>
         <a href="#" class="li-style" style="font-family: 'Rubik', sans-serif; color: #734CC1; ">Play</a>
-        <a href="#" class="li-style" style="font-family: 'Rubik', sans-serif; color: #734CC1; ">Reach</a>
+        <a type="button" class="li-style" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" class="" style="font-family: 'Rubik', sans-serif; color: #734CC1; ">Reach</a> 
+        <!-- Reach will create a modal -->
       </ul>
     </div>
 
@@ -93,7 +92,7 @@
 
 
 <!-- vid section --rember to replace vid and poster -->
-  <div class="fadein video-wrap video">
+  <div class="fadein-vid video-wrap video">
     <ul style="position: relative !important; padding: 0 !important;"> <!--  very important keeping position because of nav bar using list -->
       <li style="width: 100%; height: auto !important;">
         <video href="#"  loop playsinline preload="true" muted style="width: 100%; height: auto !important;" 
@@ -111,7 +110,7 @@
     </ul>
   </div>
 
-  <div class="fadein video-wrap video">
+  <div class="fadein-vid video-wrap video">
     <ul style="position: relative !important; padding: 0 !important;"> <!--  very important keeping position because of nav bar using list -->
       <li style="width: 100%; height: auto !important;">
         <video href="#"  loop playsinline preload="true" muted style="width: 100%; height: auto !important;" 
@@ -129,7 +128,7 @@
     </ul>
   </div>
   
-  <div class="fadein video-wrap video">
+  <div class="fadein-vid video-wrap video">
     <ul style="position: relative !important; padding: 0 !important;"> <!--  very important keeping position because of nav bar using list -->
       <li style="width: 100%; height: auto !important;">
         <video href="#"  loop playsinline preload="true" muted style="width: 100%; height: auto !important;" 
@@ -149,30 +148,25 @@
   <br>
   <br>
 
-  <div class="container">
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
+<!-- Modal -->
 
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Modal Header</h4>
-          </div>
-          <div class="modal-body">
-            <p>Some text in the modal.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+  <!-- Modal -->
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">contacts</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-
+        <div class="modal-body">
+          stuff will go here i promise
+        </div>
+        
       </div>
     </div>
   </div>
+</div>
 
 
 

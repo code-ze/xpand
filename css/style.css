@@ -116,9 +116,10 @@ video::-webkit-media-controls {
   }
 
 /* fade in animation jquery */
-.fadein {
+.fadein-vid {
   opacity:0;
 }
+
 
 /* Nav bar css */
 
@@ -132,7 +133,7 @@ video::-webkit-media-controls {
     overflow: hidden;
     position: fixed !important;
     ;
-    top: 0;
+    top: -30%;
     align-items: center;
     
   }
@@ -147,7 +148,7 @@ video::-webkit-media-controls {
   .li-style {
     text-decoration: none;
     padding: none;
-    margin-top: 9%;
+    margin-top: 3%;
     margin-left: -4%;
     
   }

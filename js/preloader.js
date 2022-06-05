@@ -17,7 +17,7 @@
 
       $(document).ready(function() {
         $(window).scroll( function(){
-            $('.fadein').each( function(i){
+            $('.fadein-vid').each( function(i){
                 
                 var bottom_of_element = $(this).offset().top + $(this).outerHeight();
                 var bottom_of_window = $(window).scrollTop() + $(window).height();
