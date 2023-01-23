@@ -1,2 +1,2 @@
 # xpand
-https://amjad-101.github.io/xpand/
+https://code-ze.github.io/xpand/index.html
